@@ -40,7 +40,7 @@ def heregeocoder(apikey, df):
 
 def googlegeocoder(df):
     #print(df)
-    g = geocoders.GoogleV3(api_key='AIzaSyBYcFelAgqWkJ3I_gSKSm9Aauzjt6PrHSo')
+    g = geocoders.GoogleV3(api_key='xxxxxxxxc')
     # iterate over dataframe
     for i in df.index:
         address = df.iloc[i, 5] + ' ' + df.iloc[i, 6] + ' ' + df.iloc[i, 7] + ' ' + df.iloc[i, 8] + ' ' \
